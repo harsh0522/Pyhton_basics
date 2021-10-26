@@ -18,3 +18,4 @@ print(b)
 import matplotlib.pyplot as plt
 plt.plot(b)
 plt.show()
+#pythona
