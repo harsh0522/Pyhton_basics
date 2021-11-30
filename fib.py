@@ -7,16 +7,16 @@ def fib(n):
     else:
         return fib(n-1)+fib(n-2) 
 
-#def main():
-    # print("enter the fib number: ",end=" ")
-    # n = int(input())    
-    # for i in range(0,n+1):
-    #     print(fib(i),end=" ")
+def main():
+    print("enter the fib number: ",end=" ")
+    n = int(input())    
+    for i in range(0,n+1):
+        print(fib(i),end=" ")
 
-# if __name__ == "main()":
-#      main()
+if __name__ == "main()":
+     main()
 
 
-n = int(input("enter the fib number: "))    
-for i in range(0,n+1):
-    print(fib(i),end=" ")
+# n = int(input("enter the fib number: "))    
+# for i in range(0,n+1):
+#     print(fib(i),end=" ")
